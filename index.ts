@@ -5,5 +5,9 @@ const receipt: Partial<TransactionReceipt> = {
     logs: []
 }
 
-console.log(receipt)
-console.log(receiptSchema)
+export function printReceiptInfo() {
+    console.log(receipt)
+    console.log(receiptSchema)
+    return true
+}
+
