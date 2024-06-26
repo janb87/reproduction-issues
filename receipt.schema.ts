@@ -1,4 +1,5 @@
 import { t } from "elysia";
+import type { TransactionReceipt } from "viem";
 
 export const receiptSchema = t.Object({
     blobGasPrice: t.Optional(t.String({ description: "Blob Gas Price" })),
